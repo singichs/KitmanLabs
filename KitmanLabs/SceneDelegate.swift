@@ -2,8 +2,6 @@
 //  SceneDelegate.swift
 //  KitmanLabs
 //
-//  Created by Sagar Singichetti on 6/30/22.
-//
 
 import UIKit
 
@@ -47,6 +45,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
+    func setRootViewController(_ viewController: UIViewController) {
+        if let window = window {
+            window.rootViewController = viewController
+        }
+    }
 
 }
 

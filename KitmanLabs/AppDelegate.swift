@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  KitmanLabs
 //
-//  Created by Sagar Singichetti on 6/30/22.
-//
 
 import UIKit
 

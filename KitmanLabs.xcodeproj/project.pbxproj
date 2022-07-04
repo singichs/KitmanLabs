@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B59946128710C4D00E97A56 /* AthleteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B59946028710C4D00E97A56 /* AthleteDetailsViewController.swift */; };
 		1B69B1E5286E35C800CE8F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B1E4286E35C800CE8F17 /* AppDelegate.swift */; };
 		1B69B1E7286E35C800CE8F17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B1E6286E35C800CE8F17 /* SceneDelegate.swift */; };
-		1B69B1E9286E35C800CE8F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B1E8286E35C800CE8F17 /* ViewController.swift */; };
 		1B69B1EC286E35C800CE8F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B69B1EA286E35C800CE8F17 /* Main.storyboard */; };
 		1B69B1EE286E35CD00CE8F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B69B1ED286E35CD00CE8F17 /* Assets.xcassets */; };
 		1B69B1F1286E35CD00CE8F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B69B1EF286E35CD00CE8F17 /* LaunchScreen.storyboard */; };
+		1B69B1F9286F53BD00CE8F17 /* AthleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B1F8286F53BC00CE8F17 /* AthleteTableViewCell.swift */; };
+		1B69B1FD286F566B00CE8F17 /* AthletesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B1FC286F566B00CE8F17 /* AthletesTableViewController.swift */; };
+		1B69B1FF286F592300CE8F17 /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B1FE286F592300CE8F17 /* ContentService.swift */; };
+		1B69B201286F593700CE8F17 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B200286F593700CE8F17 /* DataModels.swift */; };
+		1B69B203286F7C2B00CE8F17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B202286F7C2B00CE8F17 /* LoginViewController.swift */; };
+		1B69B205286F8AC200CE8F17 /* AthleteSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B204286F8AC100CE8F17 /* AthleteSearch.swift */; };
+		1B69B207286F91D100CE8F17 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69B206286F91D100CE8F17 /* AuthenticationService.swift */; };
+		1BBA71DC2870AE610081D5CE /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA71DB2870AE610081D5CE /* ImageProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B59946028710C4D00E97A56 /* AthleteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteDetailsViewController.swift; sourceTree = "<group>"; };
 		1B69B1E1286E35C800CE8F17 /* KitmanLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitmanLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B69B1E4286E35C800CE8F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B69B1E6286E35C800CE8F17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B69B1E8286E35C800CE8F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B69B1EB286E35C800CE8F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B69B1ED286E35CD00CE8F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B69B1F0286E35CD00CE8F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B69B1F2286E35CD00CE8F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B69B1F8286F53BC00CE8F17 /* AthleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteTableViewCell.swift; sourceTree = "<group>"; };
+		1B69B1FC286F566B00CE8F17 /* AthletesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesTableViewController.swift; sourceTree = "<group>"; };
+		1B69B1FE286F592300CE8F17 /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
+		1B69B200286F593700CE8F17 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		1B69B202286F7C2B00CE8F17 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1B69B204286F8AC100CE8F17 /* AthleteSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteSearch.swift; sourceTree = "<group>"; };
+		1B69B206286F91D100CE8F17 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		1BBA71DB2870AE610081D5CE /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B599462287148FD00E97A56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1B69B204286F8AC100CE8F17 /* AthleteSearch.swift */,
+				1B69B206286F91D100CE8F17 /* AuthenticationService.swift */,
+				1B69B1FE286F592300CE8F17 /* ContentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1B5994632871491C00E97A56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BBA71DB2870AE610081D5CE /* ImageProvider.swift */,
+				1B5994662871496800E97A56 /* Athletes */,
+				1B5994652871495E00E97A56 /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B5994642871492E00E97A56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B69B200286F593700CE8F17 /* DataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B5994652871495E00E97A56 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1B69B202286F7C2B00CE8F17 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1B5994662871496800E97A56 /* Athletes */ = {
+			isa = PBXGroup;
+			children = (
+				1B59946028710C4D00E97A56 /* AthleteDetailsViewController.swift */,
+				1B69B1F8286F53BC00CE8F17 /* AthleteTableViewCell.swift */,
+				1B69B1FC286F566B00CE8F17 /* AthletesTableViewController.swift */,
+			);
+			path = Athletes;
+			sourceTree = "<group>";
+		};
 		1B69B1D8286E35C800CE8F17 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +118,11 @@
 		1B69B1E3286E35C800CE8F17 /* KitmanLabs */ = {
 			isa = PBXGroup;
 			children = (
+				1B5994642871492E00E97A56 /* Models */,
+				1B5994632871491C00E97A56 /* Views */,
+				1B599462287148FD00E97A56 /* Services */,
 				1B69B1E4286E35C800CE8F17 /* AppDelegate.swift */,
 				1B69B1E6286E35C800CE8F17 /* SceneDelegate.swift */,
-				1B69B1E8286E35C800CE8F17 /* ViewController.swift */,
 				1B69B1EA286E35C800CE8F17 /* Main.storyboard */,
 				1B69B1ED286E35CD00CE8F17 /* Assets.xcassets */,
 				1B69B1EF286E35CD00CE8F17 /* LaunchScreen.storyboard */,
@@ -138,9 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B69B1E9286E35C800CE8F17 /* ViewController.swift in Sources */,
+				1BBA71DC2870AE610081D5CE /* ImageProvider.swift in Sources */,
+				1B69B203286F7C2B00CE8F17 /* LoginViewController.swift in Sources */,
 				1B69B1E5286E35C800CE8F17 /* AppDelegate.swift in Sources */,
 				1B69B1E7286E35C800CE8F17 /* SceneDelegate.swift in Sources */,
+				1B69B207286F91D100CE8F17 /* AuthenticationService.swift in Sources */,
+				1B69B205286F8AC200CE8F17 /* AthleteSearch.swift in Sources */,
+				1B69B1FD286F566B00CE8F17 /* AthletesTableViewController.swift in Sources */,
+				1B59946128710C4D00E97A56 /* AthleteDetailsViewController.swift in Sources */,
+				1B69B201286F593700CE8F17 /* DataModels.swift in Sources */,
+				1B69B1F9286F53BD00CE8F17 /* AthleteTableViewCell.swift in Sources */,
+				1B69B1FF286F592300CE8F17 /* ContentService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
